@@ -1,7 +1,7 @@
 README.md
 markdown
 Копировать код
-# Testing PAP
+# Testing ZIZ INC
 
 This project is a testing project using **Next.js** and **Redux Toolkit**. It also includes a mock API server using `json-server` to simulate backend interactions.
 
