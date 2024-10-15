@@ -4,15 +4,13 @@ import { Product } from '@/types';
 interface CartItem extends Product {
     quantity: number;
 }
-
 interface CartState {
     items: CartItem[];
     total: number;
 }
 
-const initialState: CartState = {
-    items: [],
-    total: 0,
+const calculateTotal = (items: CartItem[]) => {
+    return items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 };
 
 const saveToLocalStorage = (state: CartState) => {
@@ -21,8 +19,19 @@ const saveToLocalStorage = (state: CartState) => {
     }
 };
 
-const calculateTotal = (items: CartItem[]) => {
-    return items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+const loadFromLocalStorage = (): CartItem[] => {
+    if (typeof window !== 'undefined') {
+        const storedCart = localStorage.getItem('cart');
+        if (storedCart) {
+            return JSON.parse(storedCart) as CartItem[];
+        }
+    }
+    return [];
+};
+
+const initialState: CartState = {
+    items: loadFromLocalStorage(),
+    total: calculateTotal(loadFromLocalStorage()),
 };
 
 const cartSlice = createSlice({
@@ -36,7 +45,7 @@ const cartSlice = createSlice({
             } else {
                 state.items.push({ ...action.payload, quantity: 1 });
             }
-            state.total = Math.max(calculateTotal(state.items), 0); 
+            state.total = calculateTotal(state.items);
             saveToLocalStorage(state);
         },
         removeFromCart: (state, action: PayloadAction<number>) => {
@@ -44,7 +53,7 @@ const cartSlice = createSlice({
             if (index > -1) {
                 state.items.splice(index, 1);
             }
-            state.total = Math.max(calculateTotal(state.items), 0);
+            state.total = calculateTotal(state.items);
             saveToLocalStorage(state);
         },
         updateQuantity: (state, action: PayloadAction<{ id: number; quantity: number }>) => {
@@ -53,7 +62,7 @@ const cartSlice = createSlice({
             if (item) {
                 item.quantity = quantity;
             }
-            state.total = Math.max(calculateTotal(state.items), 0);
+            state.total = calculateTotal(state.items);
             saveToLocalStorage(state);
         },
     },

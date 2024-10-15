@@ -8,7 +8,6 @@ interface CategoryFilterProps {
     className?: string;
 }
 
-
 const CategoryFilter: FC<CategoryFilterProps> = ({ className }) => {
     const dispatch = useDispatch();
 

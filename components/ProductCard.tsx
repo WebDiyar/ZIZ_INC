@@ -1,4 +1,3 @@
-'use client';
 import { Button } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '@/store/cartSlice';

@@ -19,10 +19,10 @@ Follow these instructions to set up the project and get it running on your local
 1. 
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd dddd
+   git clone https://github.com/WebDiyar/ZIZ_INC.git
+   cd ZIZ_INC
    npm install
    npm run build
-   npm run server (a mock API server with db.json on `http://localhost:3001`)
-   npm run dev (`http://localhost:3000` in your browser.)
+   1st terminal: npm run server (a mock API server with db.json on `http://localhost:3001`)
+   2st terminal: npm run dev (`http://localhost:3000` in your browser.)
 
