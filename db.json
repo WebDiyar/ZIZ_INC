@@ -1,0 +1,144 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Smartphone",
+            "category": "Electronics",
+            "price": 300,
+            "image": "https://cdn.shoplightspeed.com/shops/662820/files/65953701/apple-iphone-16-128-gb-ultramarin.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Laptop",
+            "category": "Electronics",
+            "price": 800,
+            "image": "https://img.freepik.com/premium-vector/modern-laptop-mockup-with-blank-screen-vector-illustration_1253202-60112.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Headphones",
+            "category": "Electronics",
+            "price": 100,
+            "image": "https://media.istockphoto.com/id/1412240771/photo/headphones-on-white-background.jpg?s=612x612&w=0&k=20&c=DwpnlOcMzclX8zJDKOMSqcXdc1E7gyGYgfX5Xr753aQ="
+        },
+        {
+            "id": 4,
+            "name": "T-Shirt",
+            "category": "Clothing",
+            "price": 20,
+            "image": "https://makrodor.by/wp-content/uploads/2019/01/vneck-tee-2.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Jeans",
+            "category": "Clothing",
+            "price": 40,
+            "image": "https://t3.ftcdn.net/jpg/00/86/23/60/360_F_86236057_UVXfxQmPE4kk3vHZjLWENnPsU23VYd8t.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Jacket",
+            "category": "Clothing",
+            "price": 60,
+            "image": "https://www.shutterstock.com/image-photo/blank-jacket-bomber-black-color-260nw-1028756722.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Novel",
+            "category": "Books",
+            "price": 15,
+            "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2._UX187_.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Science Fiction",
+            "category": "Books",
+            "price": 18,
+            "image": "https://m.media-amazon.com/images/I/81cZopHX43L._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+            "id": 9,
+            "name": "History Book",
+            "category": "Books",
+            "price": 22,
+            "image": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/migrated/article/15183/70_tn3.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Smartwatch",
+            "category": "Electronics",
+            "price": 150,
+            "image": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "price": 75,
+            "image": "https://www.shutterstock.com/image-photo/minsk-belarus-1-sep-2017-600nw-721305178.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Running Shoes",
+            "category": "Clothing",
+            "price": 90,
+            "image": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1608.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Sunglasses",
+            "category": "Accessories",
+            "price": 50,
+            "image": "https://t4.ftcdn.net/jpg/03/35/47/11/360_F_335471120_CUSXkCz8RpD7zvOFPoUwZfI68ZQBKlzM.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Backpack",
+            "category": "Accessories",
+            "price": 60,
+            "image": "https://media.istockphoto.com/id/184797262/photo/red-backpack-standing-on-white-background.jpg?s=612x612&w=0&k=20&c=XG0uyCVPt0eG2lDPXtoFCbHAzH2lWTTbeaXoqZhsaO4="
+        },
+        {
+            "id": 15,
+            "name": "Coffee Machine",
+            "category": "Home Appliances",
+            "price": 200,
+            "image": "https://img.freepik.com/free-psd/coffee-maker-isolated-transparent-background_191095-29004.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Microwave",
+            "category": "Home Appliances",
+            "price": 120,
+            "image": "https://media.istockphoto.com/id/489937746/photo/microwave-stove-isolated.jpg?s=612x612&w=0&k=20&c=vUi8YaHdjDvVHJPXCcYHrWkELl1l8GLpGTg2hUl35V4="
+        },
+        {
+            "id": 17,
+            "name": "Refrigerator",
+            "category": "Home Appliances",
+            "price": 500,
+            "image": "https://www.chefook.com/catalogo/img/prodotti/armadio-refrigerato-pizzeria-pasticceria-800-litri-chafp800-princ_5.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Gaming Console",
+            "category": "Electronics",
+            "price": 400,
+            "image": "https://w7.pngwing.com/pngs/600/357/png-transparent-joystick-game-controllers-gamepad-video-game-consoles-joystick-game-electronics-3d-computer-graphics-thumbnail.png"
+        },
+        {
+            "id": 19,
+            "name": "Tablet",
+            "category": "Electronics",
+            "price": 250,
+            "image": "https://www.digitaltrends.com/wp-content/uploads/2023/10/samsung-galaxy-tab-s9-fe-hero2.jpg?fit=720%2C720&p=1"
+        },
+        {
+            "id": 20,
+            "name": "Action Camera",
+            "category": "Electronics",
+            "price": 300,
+            "image": "https://www.cnet.com/a/img/resize/28d7bc48f670221652c2b92727a18849cbd6d35c/hub/2020/09/15/6589264a-d03a-4537-9d8f-168deb3c8276/gopro-hero-9-black-04.jpg?auto=webp&fit=crop&height=900&width=1200"
+        }
+    ]
+}

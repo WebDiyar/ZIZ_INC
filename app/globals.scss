@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-50;
+}
+
+.ant-btn {
+    @apply text-white bg-blue-500 hover:bg-blue-600;
+}
